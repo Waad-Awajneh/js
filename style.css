@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 59vh;
+}
+
+table {
+  padding: 10px;
+}
+
+fieldset {
+  margin: 10px;
+  background-color: gray;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: 2px solid;
+}
+
+td:first-child {
+  margin: 10px;
+  width: 100px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+.visible h1 {
+  background-color: gray;
+  padding: 50px;
+  background: rgb(60, 60, 60);
+  background: rgba(37, 36, 36, 0.3);
+}
+
+.buttons {
+  width: 50%;
+  display: flex;
+
+  justify-content: center;
+}
+
+button {
+  margin: 2rem;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: aliceblue;
+}
